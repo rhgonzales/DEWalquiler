@@ -1,0 +1,132 @@
+﻿<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Consulta de Reserva</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    </head>
+    <body>
+	<!-- <div id="menu" style="background-color:#669999;height:50px;width:510px;float:left;"> -->
+    <div id="header" style="background-color:#669999;>
+    <div class="wrapper">
+        <a class="logo" style="cursor:default" title="" href="#">
+		<img src='img/logo.jpg' alt="" width="250" height="150"/>
+		</a>
+	<div class="topNav">
+            <ul class="userNav">
+                <!-- <li>
+				<a class="logout" href="Logueo.html" title="">Log out</a>
+				</li> -->
+            </ul>
+        </div>        
+        <div class="clear"></div>
+    </div>
+	</div>
+	
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	    <div class="container-fluid">
+    <div class="row-fluid">
+    <div class="span2">
+	
+	<ul class="nav nav-list">
+    <li><a href="Menu.html"><i class="icon-home"></i> Inicio</a></li>
+	<li><a href="BuscarReserva.html"><i class="icon-book"></i> Reserva</a></li>
+    <li><a href="RegistrarSala.html"><i class="icon-pencil"></i> Sala</a></li>
+	<li><a href="RegistrarInstrumento.html"><i class="icon-asterisk"></i> Instrumento</a></li>
+	<li><a href="RegistrarServicio.html"><i class="icon-tasks"></i> Servicio</a></li>
+	<li><a href="RegistrarArmado.html"><i class="icon-filter"></i> Armado</a></li>
+	<li><a href="RegistrarUsuario.html"><i class="icon-user"></i> Usuario</a></li>
+    </ul>
+    <!--Sidebar content-->
+    </div>
+    <div class="span10">
+	 <form>
+    <fieldset>
+    <legend>Filtros de Búsqueda</legend>
+	<label>Fecha</label>
+    <input type="text" placeholder="Fecha">
+	<label>Sala</label> 
+	<select>
+                                    <option value="1">Sala 1</option>
+                                    <option value="2">Sala 2</option>
+                                    <option value="3">Sala 3</option>
+    </select>
+	<label>Cliente</label>
+    <input type="text" placeholder="Cliente">
+	<label>Hora</label>
+    <input type="text" placeholder="Hora">								
+    <label>Costo</label>
+    <input type="text" placeholder="Costo">
+	<label>Instrumento</label> 
+	<select>
+                                    <option value="1">Guitarra</option>
+                                    <option value="2">Flauta</option>
+                                    <option value="3">Violin</option>
+    </select>
+        <div class="form-actions">
+    <button type="submit" class="btn btn-primary">Buscar</button>
+    <button type="button" class="btn btn-primary">Cancelar</button>
+    </div>
+	
+	<table class="table table-condensed">
+    <caption>Listado de Reserva</caption>
+    <thead>
+    <tr class="success">
+    <th>#</th>
+    <th>Sala</th>
+	<th>Instrumento</th>
+	<th>Fecha</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="success">
+    <td>1</td>
+    <td>Sala 1</td>
+	<td>Guitarra</td>
+	<td>01-03-13</td>
+    </tr>
+    </tbody>
+	<tbody>
+    <tr class="info">
+    <td>2</td>
+    <td>Sala 2</td>
+	<td>Bateria</td>
+	<td>01-03-13</td>
+    </tr>
+    </tbody>
+    </table>
+	<div class="pagination">
+    <ul>
+    <li><a href="#">Prev</a></li>
+    <li><a href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li><a href="#">5</a></li>
+    <li><a href="#">Next</a></li>
+    </ul>
+    </div>
+	<!-- <table class="table">
+    <td>Sala 1</td>
+	<td>Instrumento 1</td>
+	<td>01/04/2012</td>
+	<td>Cliente</td>
+    </table> -->
+	
+    </fieldset>
+    </form>	
+    <!--Body content-->
+    </div>
+    </div>
+    </div>
+	<div class="page-footer" style="background-color:#669999;text-align:center">Copyright © Alquileres Sala.com</div>	
+    </body>
+    </html>
+
+                    
